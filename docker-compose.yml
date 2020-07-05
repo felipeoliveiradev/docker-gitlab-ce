@@ -4,6 +4,6 @@ services:
   gitlab-server:
     container_name: gitlab-server
     image: polinux/gitlab-ce:latest
-    hostname: 165.227.201.192
+    hostname: localhost
     ports:
       - "8080:80"
